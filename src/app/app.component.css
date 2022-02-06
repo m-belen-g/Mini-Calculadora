@@ -1,0 +1,16 @@
+div {
+  border-width: 1px;
+  border-radius: 20px;
+  border-color: black;
+  margin-top: 20px;
+  background-color: aliceblue;
+  text-align: center;
+  ;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline
+}
+h2 {
+  text-align: center;
+}

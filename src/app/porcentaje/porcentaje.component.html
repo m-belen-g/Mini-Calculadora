@@ -1,0 +1,20 @@
+
+<div class="container">
+    <h1>Porcentaje</h1>
+    <br/>
+    <br/>
+  <form>
+  
+    Porcentaje:<input type="number" name={{numero1}} [(ngModel)]="numero1"> 
+    <br/><br/>
+    Valor Total:<input type="number" name={{numero2}} [(ngModel)]="numero2"> <br/><br/>
+    
+    <input type="button" value="Calcular" class="btn btn-dark" (click)="sumar()">
+    
+    <br/><br/>
+    
+  </form>
+  Resultado: {{resultado}}
+  
+  
+  <br/><br/>

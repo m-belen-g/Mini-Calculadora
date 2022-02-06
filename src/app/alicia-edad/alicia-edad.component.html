@@ -1,0 +1,15 @@
+<h2>Alice's Age</h2>
+<br />
+<br />
+<p>
+  Alicia tiene {{ aliciaEdad }} <br />
+  Introduzca la edad de Alicia:
+  <input
+    type="number"
+    #edadAlicia
+    (click)="cambiarEdad($event)"
+    (keyup)="cambiarEdad($event)"
+  />
+  <br />
+  Alicia es {{ aliciaEdad < 18 ? "Menor de edad" : "Mayor de Edad" }}
+</p>
